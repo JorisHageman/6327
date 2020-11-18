@@ -1,12 +1,12 @@
 p1 {
   font-size: 130%;
   font-weight: bold;
-  padding-left: 20%;
+  margin-left: 20%;
 }
 
 p2 {
   font-size: 100%;
-  padding-left: 20%;
+  margin-left: 20%;
 }
 
 .sidenav {
