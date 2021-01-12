@@ -3,20 +3,20 @@
 <head>
   <script src="java.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
    <link rel="shortcut icon" href="favicon.ico">
-   <title>Informatica</title>
+   <title>Shop</title>
    <link rel="stylesheet" href="main.css">
 </head>
-<body>
+<body onload="onload()">
   <center>
   <nav>
     <ul>
-      <li><a href="index.html">First</a></li>
-      <li><a href="test.html" class="active">Second</a></li>
-      <li><a href="testtwo.html">Third</a></li>
-      <li><a href="">Fourth</a></li>
-      <li><a href="">Fifth</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="test.html" class="active">Shop</a></li>
+      <li><a href="testtwo.html">Sale</a></li>
+      <li><a href="">Trends</a></li>
+      <li><a href="">About</a></li>
     </ul>
   </nav>
 </center>
@@ -31,7 +31,7 @@
 
                         <header class="title">
                         <h1>
-                        <span>TEST PAGE 2</span>
+                        <span>EVERY WEATHER WEAR<br><br>SHOP</span>
                         </h1>
                         </header>
 
@@ -39,7 +39,72 @@
   <div class="algemeen">
 
     <main>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      <nav>
+    <ul>
+      <li><a id="activejackets"><button onclick="Jackets()">Jackets</button></a></li>
+      <li><a id="activesweaters"><button onclick="Sweaters()">Sweaters</button></a></li>
+      <li><a id="activepants"><button onclick="Pants()">Pants</button></a></li>
+      <li><a href="testtwo.html">Sale</a></li>
+    </ul>
+  </nav>
+      
+      <div id="Jackets">
+        Jackets
+        
+        <div class="producten" id="myModal">
+      <figure>
+        <a href="testtwo.html" class="items">
+          <img id="myImg" alt="pic" src="https://www.footasylum.com/images/products/large/4026678.jpg" width="95%">
+            <figcaption>The North Face Jacket 1<br>
+            <p class="subheader">&euro;200</p></figcaption>
+        </a>
+      </figure>
+
+      <figure>
+         <a href="testtwo.html" class="items">
+          <img alt="pic2" src="https://www.footasylum.com/images/products/large/127330.jpg" width="95%">
+            <figcaption>The North Face Jacket 2<br>
+            <p class="subheader">&euro;200</p></figcaption>
+          </a>
+      </figure>
+      </div>
+      
+      <div class="rij2">
+        <figure>
+          <a href="testtwo.html" class="items">
+            <img alt="pic" src="https://www.footasylum.com/images/products/large/134645.jpg" width="95%">
+            <figcaption>
+            The North Face Cap
+            <br>
+            <p class="subheader">&euro;200</p>
+            </figcaption>
+        </a>
+      </figure>
+
+        <figure>
+          <a href="testtwo.html" class="items">
+            <img alt="pic2" src="https://www.footasylum.com/images/products/large/4034519.jpg" width="95%">
+            <figcaption>The North Face Vest<br>
+            <p class="subheader">&euro;200</p></figcaption>
+          </a>
+        </figure>
+
+
+
+      </div>
+      </div>
+      
+      <div id="Sweaters">
+        Sweaters
+      </div>
+      
+      <div id="Pants">
+        Pants
+      </div>
+      
+      
+
+      
     </main>
 
 
