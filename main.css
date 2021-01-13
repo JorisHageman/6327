@@ -195,6 +195,7 @@ button {
 	letter-spacing: .2em;
 	font-size: 1vw;
 	outline: none;
+	cursor: pointer;
 }
 
 #Sweaters {
