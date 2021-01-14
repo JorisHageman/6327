@@ -129,6 +129,7 @@ nav a {
   color: white;
   background-color: grey;
   padding-bottom: 6vh;
+  cursor: pointer;
 }
 
 .producten {
@@ -242,5 +243,4 @@ button {
 	margin-bottom: 3.5vh;
 	border-radius: 4px;
 	}
-	
 	
