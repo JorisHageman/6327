@@ -34,3 +34,7 @@ function onload() {
     document.getElementById("activejackets").className = "active";
 }
 
+$(document).on("keydown", "form", function(event) {
+    return event.key != "Enter";
+});
+

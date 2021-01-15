@@ -150,9 +150,6 @@ nav a {
   font-size: 3vh;
 }
 
-img {
-  padding-bottom: 2.8vh;
-}
 
 .title1 {
   font-size: 2.5vw;
@@ -244,3 +241,27 @@ button {
 	border-radius: 4px;
 	}
 	
+.trend1 {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  }
+  
+  
+.trend1p {
+  margin-left: 2vw;
+  text-align: left;
+}
+
+.trend2 {
+  text-decoration: none;
+  color: white;
+  clear: right;
+  }
+  
+.trend2p {
+  text-align: right;
+  padding-right: 30vw;
+  padding-bottom: 61vh;
+  padding-top: 3.5vh;
+}
